@@ -21,7 +21,7 @@ jobs:
         python-version: "3.11.5"
     - name: Lint with Ruff
       run: |
-        pip install ruff
+        pip install --upgrade ruff
         ruff check . --fix
         ruff format . 
     - name: Auto commit style fixes
