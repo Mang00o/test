@@ -22,7 +22,7 @@ jobs:
     - name: Lint with Ruff
       run: |
         pip install ruff
-        ruff check . --fix
+        ruff check . --fix --unsafe-fixes
         ruff format . 
     - name: Test with pytest
       run: |
