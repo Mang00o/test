@@ -24,6 +24,7 @@ jobs:
         pip install ruff
         ruff check . --fix
         ruff format . 
+        ruff check . --watch
     - name: Test with pytest
       run: |
         pip install pytest 
