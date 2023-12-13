@@ -20,6 +20,10 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
+    - name: Test with Tox
+      run: |
+        pip install tox
+        tox -e py
     - name: Lint with Ruff
       run: |
         pip install ruff
