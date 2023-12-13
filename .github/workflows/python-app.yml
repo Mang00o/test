@@ -21,21 +21,13 @@ jobs:
         python-version: "3.11.5"
     - name: Lint with Ruff
       run: |
-        pip install --upgrade ruff
+        pip install ruff
         ruff check . --fix
         ruff format . 
-    - name: Auto commit style fixes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "style fixes by ruff"
     - name: Test with pytest
       run: |
         pip install pytest 
-        pytest tests.py 
-    - name: Test with Tox
-      run: |
-        pip install tox
-        tox -e py
+        pytest tests.py
            
 #ruff --output-format=github .
 
