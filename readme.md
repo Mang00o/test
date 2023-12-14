@@ -1,7 +1,7 @@
 ## Struttura repository corrente:
 
 ```
-.
+test
 └── main/
     ├── .github/workflows/
     │   └── python-app.yml
@@ -9,6 +9,11 @@
     │   ├── example.py
     │   └── tests.py
     ├── frontEnd/
-    │   └── a.txt
+    │   ├── public/
+    │   │   └── contenuto
+    │   ├── src/
+    │   │   └── contenuto
+    │   ├── package-lock.json
+    │   └── package.json
     └── README.md
 ```
