@@ -1,9 +1,10 @@
-name: React application
+name: Node application
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - '**.js'
+      - '**.css'
 
 jobs:
   build:
