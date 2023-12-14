@@ -24,8 +24,8 @@ jobs:
     - name: Lint with Ruff
       run: |
         pip install ruff
-        ruff check backEnd/example.py --fix  
-        ruff format backEnd/example.py   
+        ruff check backEnd/ . --fix  
+        ruff format backEnd/ .   
     - name: Test with pytest
       run: |
         pip install pytest 
