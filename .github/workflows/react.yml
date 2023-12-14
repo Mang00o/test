@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'frontEnd/**'
 
 jobs:
   build:
@@ -20,9 +18,13 @@ jobs:
       with:
         node-version: 20.10.0
     - name: Install dependencies
+      paths:
+      - 'frontEnd/**'
       run: |
         npm install
 
     - name: Run
+      paths:
+      - 'frontEnd/**'
       run: |
         npm run build
