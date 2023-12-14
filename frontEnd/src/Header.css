@@ -1,0 +1,10 @@
+.header {
+    text-align: center;
+}
+
+.header > ul > li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 100px;
+}
+
