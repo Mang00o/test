@@ -1,7 +1,5 @@
 #file.py
 
-import math
-
 def sum(x, y):
     return x + y
 
