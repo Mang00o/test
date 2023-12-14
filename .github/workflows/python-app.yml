@@ -24,12 +24,12 @@ jobs:
     - name: Lint with Ruff
       run: |
         pip install ruff
-        ruff check . --fix  
-        ruff format .   
+        ruff check backEnd/example.py --fix  
+        ruff format backEnd/example.py   
     - name: Test with pytest
       run: |
         pip install pytest 
-        pytest tests.py
+        pytest backEnd/tests.py
            
 #ruff --output-format=github .
 
