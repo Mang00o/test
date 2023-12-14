@@ -2,4 +2,6 @@
 
 # dependencies
 /frontEnd/node_modules
+/frontEnd/packege.json
+/packege-lock.json
 
