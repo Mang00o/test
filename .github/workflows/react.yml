@@ -21,7 +21,7 @@ jobs:
       run: |
         cd ./frontEnd
         npm install
-    - name: Run
+    - name: Start
       run: |
         cd ./frontEnd
-        npm run build
+        npm start
