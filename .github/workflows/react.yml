@@ -17,14 +17,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 20.10.0
+    - name: Correzione percorso
+      run: |
+        cd ./frontEnd
     - name: Install dependencies
-      paths:
-      - 'frontEnd/**'
       run: |
         npm install
 
     - name: Run
-      paths:
-      - 'frontEnd/**'
       run: |
         npm run build
