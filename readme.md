@@ -1,3 +1,6 @@
+## Struttura repository corrente:
+
+```
 .
 └── main/
     ├── .github/workflows/
@@ -8,3 +11,4 @@
     ├── frontEnd/
     │   └── a.txt
     └── README.md
+```
