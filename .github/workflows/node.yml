@@ -23,8 +23,7 @@ jobs:
         npm ci
     - name: Run build
       run: |
+        cd ./frontEnd
         npm run build
 
-
-#        cd ./frontEnd
 #paths:      - '**.js'      - '**.css'
