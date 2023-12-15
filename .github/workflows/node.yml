@@ -22,3 +22,7 @@ jobs:
       run: |
         cd ./frontEnd
         npm ci
+    - name: Run build
+      run: |
+        cd ./frontEnd
+        npm run build
