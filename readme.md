@@ -6,8 +6,7 @@ test
     ├── .github/workflows/
     │   └── python-app.yml
     ├── backEnd/
-    │   ├── example.py
-    │   └── tests.py
+    │   └── contenuto
     ├── frontEnd/
     │   ├── public/
     │   │   └── contenuto
