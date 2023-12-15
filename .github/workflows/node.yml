@@ -25,5 +25,10 @@ jobs:
       run: |
         cd ./frontEnd
         npm run build
+    - name: Show build
+      run: |
+        cd ./frontEnd
+        npm install serve
+        serve -s build
 
 #paths:      - '**.js'      - '**.css'
