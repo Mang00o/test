@@ -29,6 +29,7 @@ jobs:
       run: |
         cd ./frontEnd
         npm install serve
+        Set-ExecutionPolicy RemoteSigned
         serve -s build
 
 #paths:      - '**.js'      - '**.css'
