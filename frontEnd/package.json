@@ -2,6 +2,7 @@
   "name": "farmacode-web-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Mang00.github.io/farmacode-web-app",
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
@@ -15,6 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
