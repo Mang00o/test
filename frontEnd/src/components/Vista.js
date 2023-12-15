@@ -1,6 +1,6 @@
 import React from "react";
 import Filtro from "./Filtro";
-import NessunRisultato from "./NessunRisultato";
+/*import NessunRisultato from "./NessunRisultato";*/
 import Risultati from "./Risultati";
 
 function Vista() {

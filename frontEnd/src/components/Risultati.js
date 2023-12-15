@@ -75,7 +75,7 @@ function Risultati() {
                 console.log('Risultato dell\'algoritmo:', data.risultato);
             })
             .catch(error => console.error('Errore durante la richiesta:', error));
-    }, [])
+    })
 
     return (
         <>
