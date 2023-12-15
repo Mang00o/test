@@ -122,15 +122,7 @@ function Risultati() {
                                     {person.more}
                                 </td>
                                 <td className="whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                                    /*<a
-                                        href="#"
-                                        className="text-indigo-600 dark:text-indigo-200 hover:text-indigo-900 dark:hover:text-indigo-500"
-                                    >*/
                                         Edit
-                                        <span className="sr-only">
-                                            , {person.id}
-                                        </span>
-                                    //</a>
                                 </td>
                             </tr>
                         ))}
